@@ -2,11 +2,14 @@
 
 
 
+
+
 export * from './ChevronDown';
 export * from './ChevronLeft';
 export * from './ChevronRight';
 export * from './ContentGeneration';
 export * from './Database';
+// FIX: Exported the missing DeepResearch icon.
 export * from './DeepResearch';
 export * from './Exercise';
 export * from './Eye';

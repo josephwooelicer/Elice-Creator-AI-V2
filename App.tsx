@@ -3,7 +3,6 @@ import { MainLayout } from './src/layouts/MainLayout';
 import DiscoveryFeature from './src/features/discovery/DiscoveryFeature';
 import GenerationFeature from './src/features/generation/GenerationFeature';
 import ContentLibraryFeature from './src/features/content-library/ContentLibraryFeature';
-import DeepResearchFeature from './src/features/deep-research/DeepResearchFeature';
 import type { TabName } from './src/types';
 import { ToastProvider } from './src/context/ToastContext';
 import { NavigationProvider, useNavigation } from './src/context/NavigationContext';
@@ -12,7 +11,6 @@ import { ContentLibraryProvider } from './src/context/ContentLibraryContext';
 
 const PANELS: Record<TabName, React.ComponentType> = {
   'Discovery': DiscoveryFeature,
-  'Deep Research': DeepResearchFeature,
   'Generation': GenerationFeature,
   'Library': ContentLibraryFeature,
 };

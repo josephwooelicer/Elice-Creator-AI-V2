@@ -1,5 +1,5 @@
 import React from 'react';
-import { Search, Library as LibraryIcon, Sparkles, DeepResearch } from '../components/icons/index';
+import { Search, Library as LibraryIcon, Sparkles } from '../components/icons/index';
 import type { TabName } from '../types';
 import { useNavigation } from '../context/NavigationContext';
 
@@ -24,7 +24,6 @@ const Tab: React.FC<TabProps> = ({ icon: Icon, label, active = false, onClick })
 
 const TABS: { label: TabName, icon: React.ElementType }[] = [
     { label: 'Discovery', icon: Search },
-    { label: 'Deep Research', icon: DeepResearch },
     { label: 'Generation', icon: Sparkles },
     { label: 'Library', icon: LibraryIcon },
 ];

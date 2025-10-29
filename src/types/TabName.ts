@@ -1,1 +1,1 @@
-export type TabName = 'Discovery' | 'Deep Research' | 'Generation' | 'Library';
+export type TabName = 'Discovery' | 'Generation' | 'Library';
